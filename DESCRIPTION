@@ -1,6 +1,6 @@
 Package: ottr
 Title: An R Autograding Extension for Otter-Grader
-Version: 1.1.4
+Version: 1.1.5
 Authors@R: c(
     person(given = "Christopher",
            family = "Pyles",
@@ -15,13 +15,13 @@ Description:
     grading R scripts, RMarkdown documents, and R Jupyter Notebooks.
 License: BSD_3_clause + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0
 Depends: R (>= 4.0.0)
-Imports: yaml, testthat, jsonlite, pryr, R6, zip, methods
+Imports: testthat, jsonlite, R6, zip, methods
 Suggests: IRdisplay
 NeedsCompilation: no
-Packaged: 2022-03-23 15:53:52 UTC; chrispyles
+Packaged: 2022-06-16 04:02:28 UTC; chris
 Author: Christopher Pyles [aut, cre] (<https://orcid.org/0000-0001-8520-7593>),
   UC Berkeley Data Science Education Program [cph]
 Repository: CRAN
-Date/Publication: 2022-03-23 16:10:02 UTC
+Date/Publication: 2022-06-16 04:20:02 UTC
