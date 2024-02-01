@@ -1,6 +1,6 @@
 Package: ottr
 Title: An R Autograding Extension for Otter-Grader
-Version: 1.4.0
+Version: 1.5.0
 Authors@R: c(
     person(given = "Christopher",
            family = "Pyles",
@@ -21,8 +21,8 @@ Imports: jsonlite, testthat, tools, R6, zip, methods
 Suggests: IRdisplay, mockery, rmarkdown, stringr, withr, IRkernel
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2023-07-19 01:50:15 UTC; chrispyles
+Packaged: 2024-02-01 07:12:02 UTC; chrispyles
 Author: Christopher Pyles [aut, cre] (<https://orcid.org/0000-0001-8520-7593>),
   UC Berkeley Data Science Education Program [cph]
 Repository: CRAN
-Date/Publication: 2023-07-19 08:10:09 UTC
+Date/Publication: 2024-02-01 07:30:02 UTC
