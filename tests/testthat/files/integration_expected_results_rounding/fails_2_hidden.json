@@ -47,8 +47,8 @@
           }
         },
         {
-          "passed": true,
-          "error": "",
+          "passed": false,
+          "error": "square(2.5) (`actual`) not equal to 6.25 (`expected`).\n\n  `actual`: 1.0\n`expected`: 6.2",
           "test_case": {
             "name": "q2-2",
             "code": "{\n    testthat::expect_equal(square(2.5), 6.25)\n}",
@@ -65,8 +65,8 @@
       "points": null,
       "test_case_results": [
         {
-          "passed": false,
-          "error": "length(y) (`actual`) not equal to 3 (`expected`).\n\n  `actual`: 2\n`expected`: 3",
+          "passed": true,
+          "error": "",
           "test_case": {
             "name": "q3-1",
             "code": "{\n    testthat::expect_equal(length(y), 3)\n}",
@@ -77,8 +77,8 @@
           }
         },
         {
-          "passed": false,
-          "error": "`y` (`actual`) not equal to c(\"hi there, a!\", \"hi there, b!\", \"hi there, c!\") (`expected`).\n\n`actual` is a double vector (1, 2)\n`expected` is a character vector ('hi there, a!', 'hi there, b!', 'hi there, c!')",
+          "passed": true,
+          "error": "",
           "test_case": {
             "name": "q3-2",
             "code": "{\n    testthat::expect_equal(y, c(\"hi there, a!\", \"hi there, b!\", \n        \"hi there, c!\"))\n}",
